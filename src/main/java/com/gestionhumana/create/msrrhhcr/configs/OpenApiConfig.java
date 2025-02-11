@@ -7,9 +7,9 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @OpenAPIDefinition(
         info = @Info(
-                title = "API Nuevo Requerimiento",
+                title = "API Productos",
                 version = "1.0.0",
-                description = "API para crear nuevas solicitudes de candidatos"
+                description = "API crud para los productos"
         )
 )
 public class OpenApiConfig {
